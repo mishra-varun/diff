@@ -1,0 +1,272 @@
+label{
+    display: block;
+    margin: 4% 5% 0% 5%;
+}
+input, textarea{
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 2% 5%;
+    border: 2px solid transparent;
+}
+input{
+    height: 1.8rem;
+}
+input[type="file"]{
+    opacity: 0;
+    cursor: pointer;
+}
+input:focus, textarea:focus{
+    transition: 0.1s linear;
+    border: 2px solid #1390d3;
+}
+.container{
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    background-color: #ecf1f8;
+}
+.upload-wrap{
+    border: 1px dotted black;
+    padding: 10% 25%;
+    margin: 2% 5%;
+    position: relative;
+}
+.btn-round{
+    position: absolute;
+    background-color: white;
+    color: #1390d3;
+    border: 1px solid;
+    height: 2rem;
+    border-radius: 2rem;
+    width: 40%;
+    cursor: pointer;
+    top: 2rem;
+}
+.btn-round:after{
+    content: "Upload File";
+    position: relative;
+    bottom: 1.8rem;
+    left: 3rem;
+}
+#img-msg{
+    color: inherit;
+    position: absolute;
+}
+.btn{
+    background-color: #1390d3;
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #1390d3;
+    height: 3rem;
+    border-radius: 3rem;
+    width: 5rem;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #888;
+}
+.btn-box{
+    display: flex;
+    width: 15rem;
+    margin: auto;
+}
+.btn-box div{
+    margin: auto;
+}
+.btn-box:focus, .btn-box button:focus{
+    border: none;
+    outline: none;
+}
+.btn-add{
+    float: right;
+    width: 7rem;
+    background-color: #ff9900;
+    height: 2rem;
+    border: none;
+    font-size: 13px;
+    border-radius: 3rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+button a{
+    color: white;
+}
+header span{
+    font-size: 22px;
+}
+.paginate{
+    margin: 0.3rem;
+    color: #1390d3;
+    border: 1px solid rgba(180,180,180,0.5);
+    padding: 0.2rem;
+    cursor: pointer;
+}
+.paginate:first-child{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.paginate:last-child{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+header{
+    border-bottom: 1px solid rgba(64,64,64,0.5);
+    padding-bottom: 3px;
+}
+.prod-col{
+    padding: 0.5rem;
+}
+.prod-col span{
+    padding: 0.5rem;
+}
+.prod-col button{
+    margin: 0rem 1rem;
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    height: 3rem;
+    border-bottom: 1px solid rgba(128,128,128,0.25);
+}
+tr.prod-col:hover{
+    background-color: rgba(180,180,180,0.2);
+}
+td{
+    padding: 0.4rem;
+    color: #333333;
+}
+.head-col td{
+    width: 17%;
+}
+td:first-child{
+    width: 8%;
+}
+.head-col td.desc{
+    width: 24%;
+}
+button.row-btn{
+    background-color: #fff;
+    color: #1390D3;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(128,128,128,0.5);
+    margin: 0rem 0.5rem;
+}
+button:focus{
+    outline: none;
+}
+.common-header{
+    background-color: #b81125;
+    height: 2rem;
+    padding-left: 40%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.common-header a{
+    color: white;
+}
+.common-header .nav-link{
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+.prod-card{
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+}
+.prod-card a{
+    color: unset;
+}
+.showcase{
+    margin: 1.5rem;
+}
+.add-to-cart{
+    display: inline;
+    color: #b81125;
+    cursor: pointer;
+}
+.add-to-cart button{
+    border-radius: 1rem;
+    height: 1rem;
+    background-color: #b81125;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.price{
+    font-weight: bold;
+    font-size: 15px;
+}
+.discount{
+    border: 1px solid rgba(128,128,128,0.25);
+    color: rgb(128,128,128);
+    font-size: 11px;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+}
+.disp-flex{
+    display: flex;
+}
+.disp-flex.price-div div:first-child{
+    width: 25%;
+}
+.img-wrap{
+    margin: 2rem;
+}
+.text-wrap{
+    border-left: 1px solid rgba(128,128,128,0.25);
+    padding: 1rem;
+    width: 100%;
+}
+.text-wrap h2{
+    margin-bottom: 0px;
+}
+.prod-by{
+    font-size: 13px;
+}
+.img-wrap img{
+    margin-top: 2rem;
+}
+.text-wrap div{
+    width: 100%;
+}
+.add-cart{
+    width: 12rem;
+    height: 2.5rem;
+    background-color: #b81125;
+    border: navajowhite;
+    border-radius: 0.25rem;
+}
+.add-cart-div{
+    margin: 1rem 0rem;
+}
+.spec span:last-child{
+    margin: 5rem;
+}
+.spec h1, .desc-in-det h1{
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(128,128,128,0.25);
+}
+.cart-items{
+    width: 70%;
+    margin: 1%;
+}
+.cart-item-name{
+    display: inline;
+    margin: 5%;
+}
+td.tr1{
+    width: 50%;
+}
+.checkout-status{
+    width: 20%;
+    margin: 1%;
+}
